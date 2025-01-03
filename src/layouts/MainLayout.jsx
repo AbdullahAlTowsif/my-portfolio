@@ -1,3 +1,4 @@
+import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
 import Container from "../components/Container";
 import Navbar from "../components/Navbar";
@@ -8,6 +9,7 @@ const MainLayout = () => {
             <Container>
                 <Navbar></Navbar>
                 <Banner></Banner>
+                <AboutMe></AboutMe>
             </Container>
         </div>
     );
