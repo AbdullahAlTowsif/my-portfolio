@@ -1,22 +1,6 @@
-// const AboutMe = () => {
-//     return (
-//         <div className="bg-base-200">
-//             <h1>ABOUT</h1>
-//             <p>
-//                 I am Abdullah Al Towsif, a dedicated and enthusiastic Frontend Developer from Bangladesh. My developer journey started with Programming Hero, which ignited my passion for coding and web development. With a strong enthusiasm for creating visually appealing and user-friendly web applications, I specialize in crafting modern interfaces using React.js, JavaScript, HTML, and CSS. My journey in development is driven by a constant desire to learn, grow, and tackle complex challenges in web technologies. Beyond coding, I take pride in writing clean, efficient, and maintainable code while focusing on performance and accessibility. I am highly motivated to contribute to innovative projects and collaborate with like-minded professionals to build impactful digital solutions.
-//             </p>
-//             <p>
-//                 When I&apos;m not busy coding, I enjoy immersing myself in the world of gaming and exploring captivating stories through movies. These hobbies not only help me unwind but also inspire creativity and fresh perspectives for my work. I am highly motivated to contribute to innovative projects and collaborate with like-minded professionals to build impactful digital solutions.
-//             </p>
-//         </div>
-//     );
-// };
-
-// export default AboutMe;
-
 const AboutMe = () => {
     return (
-        <div className="bg-base-200 py-16 px-6 lg:px-20">
+        <div id="about-me" className="bg-base-200 py-16 px-6 lg:px-20">
             <div className="container mx-auto max-w-4xl text-center lg:text-left">
                 <h1 className="text-4xl font-bold text-primary mb-6">
                     About Me
