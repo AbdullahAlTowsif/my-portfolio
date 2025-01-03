@@ -2,6 +2,7 @@ import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
 import Container from "../components/Container";
 import Navbar from "../components/Navbar";
+import Skills from "../components/Skills";
 
 const MainLayout = () => {
     return (
@@ -10,6 +11,7 @@ const MainLayout = () => {
                 <Navbar></Navbar>
                 <Banner></Banner>
                 <AboutMe></AboutMe>
+                <Skills></Skills>
             </Container>
         </div>
     );
