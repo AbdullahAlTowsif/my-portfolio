@@ -15,7 +15,7 @@ const Skills = () => {
         { name: "Tailwind CSS", level: 85, icon: <RiTailwindCssFill className="text-[#38bdf8] text-5xl" /> },
         { name: "Daisy UI", level: 80, icon: <SiDaisyui className="text-green-400 text-5xl" /> },
     ];
-// bg-gray-900
+
     return (
         <div className="bg-base-200 py-16 px-6 lg:px-20">
             <div className="container mx-auto max-w-5xl text-center">
