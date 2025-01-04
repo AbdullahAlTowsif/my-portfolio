@@ -1,23 +1,9 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 
-// const ProjectDetails = () => {
-//     const projects = useLoaderData();
-    
-//     console.log(projects);
-//     return (
-//         <div>
-//             kichu
-//         </div>
-//     );
-// };
-
-// export default ProjectDetails;
-
 const ProjectDetails = () => {
     const {id} = useParams();
     const projects = useLoaderData();
-    console.log(projects);
     const [project, setProject] = useState({})
     useEffect(()=> {
         const specificProject = projects.find(pro=> pro.id == id)
