@@ -11,7 +11,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     offset={-70}
-                    className="cursor-pointer"
+                    className="cursor-pointer btn text-white bg-gray-800"
                 >
                     About Me
                 </ScrollLink>
@@ -22,7 +22,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     offset={-70}
-                    className="cursor-pointer"
+                    className="cursor-pointer btn text-white bg-gray-800"
                 >
                     My Skills
                 </ScrollLink>
@@ -33,7 +33,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     offset={-70}
-                    className="cursor-pointer"
+                    className="cursor-pointer btn text-white bg-gray-800"
                 >
                     My Education
                 </ScrollLink>
@@ -44,7 +44,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     offset={-70}
-                    className="cursor-pointer"
+                    className="cursor-pointer btn text-white bg-gray-800"
                 >
                     My Projects
                 </ScrollLink>
@@ -55,7 +55,7 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                     offset={-70}
-                    className="cursor-pointer"
+                    className="cursor-pointer btn text-white bg-gray-800"
                 >
                     Contact
                 </ScrollLink>
@@ -65,7 +65,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar sticky top-0 z-50 bg-base-100">
+            <div className="navbar fixed z-50 bg-opacity-30 bg-base-100 w-11/12 mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
