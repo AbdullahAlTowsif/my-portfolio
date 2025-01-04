@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Online Group Study",
+        "image": "https://i.ibb.co.com/kq1jLjh/Screenshot-2025-01-04-052059.png",
+        "stack": [
+            "React.js",
+            "Node.js & Express.js",
+            "MongoDB",
+            "Axios",
+            "React Router",
+            "Tailwind CSS",
+            "JWT (JSON Web Tokens)",
+            "Date-fns",
+            "React Context API",
+            "Firebase"
+        ],
+        "description": "The Online Group-Study platform is designed to help students study collaboratively in virtual study groups. It enables users to join or create study groups based on subjects, schedule study sessions, and share study materials. The goal of this platform is to enhance productivity, make studying more interactive, and provide a supportive learning environment.",
+        "liveLink": "https://group-study-1086a.web.app/",
+        "githubLink": "https://github.com/programming-hero-web-course2/b10a11-client-side-AbdullahAlTowsif",
+        "details": "User's can Sign Up, Login and manage their profiles and can share resources. I can still improve the project by adding new features like they can share video resources managing schedule etc"
+    },
+    {
+        "id": 2,
+        "name": "CROWDCUBE",
+        "image": "https://i.ibb.co.com/tXB9nCL/Screenshot-2025-01-04-053010.png",
+        "stack": [
+            "React.js",
+            "Node.js & Express.js",
+            "MongoDB",
+            "Axios",
+            "React Router",
+            "Tailwind CSS",
+            "React Context API",
+            "Firebase"
+        ],
+        "description": "Crowdcube is an equity crowdfunding platform designed that allows individuals to invest in startups and early-stage businesses in exchange for equity",
+        "liveLink": "https://crowd-funding-ae5c8.web.app/",
+        "githubLink": "https://github.com/programming-hero-web-course2/b10-a10-client-side-AbdullahAlTowsif?tab=readme-ov-file",
+        "details": "User's can Sign Up, Login and manage their profiles. They can add, delete, update and donate to different campaigns. I can still improve the project by adding new features like they can share video for their campaigns etc"
+    },
+    {
+        "id": 3,
+        "name": "Winter Clothing Donation",
+        "image": "https://i.ibb.co.com/yy2vJYP/Screenshot-2025-01-04-053815.png",
+        "stack": [
+            "React.js",
+            "React Router",
+            "Tailwind CSS",
+            "React Context API",
+            "Firebase"
+        ],
+        "description": "This website connects compassionate donors with those in need, ensuring everyone can stay warm during the cold months. With just a few clicks, you can make a difference by donating gently used or new winter clothing to local shelters and communities. Join us in spreading warmth and kindness this winter season!",
+        "liveLink": "https://winter-clothing-donation-a305c.web.app/",
+        "githubLink": "https://github.com/programming-hero-web-course1/b10-a9-authentication-AbdullahAlTowsif?tab=readme-ov-file",
+        "details": "User's can Sign Up, Login and manage their profiles. They can donate winter clothes in different division they want. I can improve the website by taking real time information which will be more dynamic and fast for the user's to use"
+    }
+]
