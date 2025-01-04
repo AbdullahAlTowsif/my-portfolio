@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 
+// eslint-disable-next-line react/prop-types
 const Projects = ({project}) => {
+    // eslint-disable-next-line react/prop-types
     const {id, name, image} = project;
     const navigate = useNavigate();
     const handleDetails = () => {
