@@ -2,6 +2,7 @@ import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
 import Container from "../components/Container";
 import EducationExperience from "../components/EducationExperience";
+import GetInTouch from "../components/GetInTouch";
 import MyProjects from "../components/MyProjects";
 import Navbar from "../components/Navbar";
 import Skills from "../components/Skills";
@@ -16,6 +17,7 @@ const MainLayout = () => {
                 <Skills></Skills>
                 <EducationExperience></EducationExperience>
                 <MyProjects></MyProjects>
+                <GetInTouch></GetInTouch>
             </Container>
         </div>
     );
