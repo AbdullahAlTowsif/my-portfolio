@@ -16,6 +16,50 @@ const Navbar = () => {
                     About Me
                 </ScrollLink>
             </li>
+            <li>
+                <ScrollLink
+                    to="my-skills"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer"
+                >
+                    My Skills
+                </ScrollLink>
+            </li>
+            <li>
+                <ScrollLink
+                    to="my-education"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer"
+                >
+                    My Education
+                </ScrollLink>
+            </li>
+            <li>
+                <ScrollLink
+                    to="my-projects"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer"
+                >
+                    My Projects
+                </ScrollLink>
+            </li>
+            <li>
+                <ScrollLink
+                    to="contact-me"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer"
+                >
+                    Contact
+                </ScrollLink>
+            </li>
         </>
     );
 

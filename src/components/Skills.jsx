@@ -17,7 +17,7 @@ const Skills = () => {
     ];
 
     return (
-        <div className="bg-base-200 py-16 px-6 lg:px-20">
+        <div id='my-skills' className="bg-base-200 py-16 px-6 lg:px-20">
             <div className="container mx-auto max-w-5xl text-center">
                 <h1 className="text-4xl font-bold text-green-600 mb-12">My Skills</h1>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10">

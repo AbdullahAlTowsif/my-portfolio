@@ -2,7 +2,7 @@ import { FaPhoneAlt, FaEnvelope, FaTwitter, FaFacebook, FaGithub } from 'react-i
 
 const GetInTouch = () => {
     return (
-        <div className="bg-gray-50 py-16 px-8">
+        <div id='contact-me' className="bg-gray-50 py-16 px-8">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-3xl font-bold text-center mb-8">Get in Touch</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
