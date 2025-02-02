@@ -99,7 +99,10 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1">{links}</ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-purple-500 text-white">Resume</a>
+                    <a href="/Abdullah Al Towsif_Resume.pdf"  // Resume file inside public folder
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn bg-purple-500 text-white">Resume</a>
                 </div>
             </div>
         </div>
