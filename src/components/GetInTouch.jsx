@@ -9,7 +9,7 @@ const GetInTouch = () => {
                     {/* Address Section */}
                     <div>
                         <h3 className="text-xl font-semibold mb-4">ADDRESS</h3>
-                        <p className="text-gray-600 mb-2">3rd Floor, Foysal Tower</p>
+                        <p className="text-gray-600 mb-2">3rd Floor, Azam Building</p>
                         <p className="text-gray-600 mb-2">Arakan Road</p>
                         <p className="text-gray-600 mb-4">Bahaddarhat, Chittagong</p>
                         <div className="flex items-center mb-2">

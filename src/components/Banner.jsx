@@ -1,13 +1,23 @@
 import { FaGithub, FaFacebook, FaTwitter } from "react-icons/fa";
-import pp from "../assets/Github PP.jpg";
+import pp from "../assets/Towsif Pic.jpeg";
 
 const Banner = () => {
+    const handleDownload = () => {
+        const resumeUrl = "/Abdullah Al Towsif_Resume.pdf"; // Resume file inside public folder
+        const link = document.createElement("a");
+        link.href = resumeUrl;
+        link.download = "Abdullah_Al_Towsif_Resume.pdf"; // Name of the downloaded file
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <div className="hero bg-[#F5EFFF] min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
                     src={pp}
-                    className="w-96 max-h-96 rounded-full object-cover shadow-2xl"
+                    className="w-80 max-h-96 rounded-full object-cover shadow-2xl"
                     alt="Profile"
                 />
                 <div>
@@ -15,7 +25,7 @@ const Banner = () => {
                     <p className="py-6 text-2xl">
                         I&apos;m a Frontend Developer From Bangladesh
                     </p>
-                    <button className="btn bg-purple-500 text-white mb-6">
+                    <button onClick={handleDownload} className="btn bg-purple-500 text-white mb-6">
                         Download Resume
                     </button>
 
