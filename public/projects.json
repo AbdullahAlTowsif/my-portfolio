@@ -1,6 +1,33 @@
 [
     {
         "id": 1,
+        "name": "EduHive",
+        "image": "https://i.ibb.co.com/ynL1kzsk/Screenshot-2025-02-02-181155.png",
+        "stack": [
+            "React.js",
+            "Node.js & Express.js",
+            "MongoDB",
+            "Axios",
+            "React Router",
+            "Tailwind CSS",
+            "DaisyUI",
+            "JWT (JSON Web Tokens)",
+            "Stripe",
+            "React Hook Form",
+            "TanStack Query",
+            "Recharts",
+            "React Context API",
+            "Firebase",
+            "SweetAlert",
+            "React Hot Toast"
+        ],
+        "description": "EduHive is a platform designed to enhance interactions between educational institutions, tutors, and students. The system streamlines class management, scheduling, and skill-based learning in an accessible and efficient manner. Users can enroll in courses, manage study materials, and interact with tutors in a structured learning environment.",
+        "liveLink": "https://edu-hive-3c8bd.web.app/",
+        "githubLink": "https://github.com/AbdullahAlTowsif/eduHive-client",
+        "details": "Users can sign up, log in, manage profiles, enroll in courses, and interact with tutors. Future improvements could include live class integration, automated grading, and AI-based personalized learning suggestions."
+    },    
+    {
+        "id": 2,
         "name": "Online Group Study",
         "image": "https://i.ibb.co.com/kq1jLjh/Screenshot-2025-01-04-052059.png",
         "stack": [
@@ -21,7 +48,7 @@
         "details": "User's can Sign Up, Login and manage their profiles and can share resources. I can still improve the project by adding new features like they can share video resources managing schedule etc"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "CROWDCUBE",
         "image": "https://i.ibb.co.com/tXB9nCL/Screenshot-2025-01-04-053010.png",
         "stack": [
@@ -38,21 +65,5 @@
         "liveLink": "https://crowd-funding-ae5c8.web.app/",
         "githubLink": "https://github.com/programming-hero-web-course2/b10-a10-client-side-AbdullahAlTowsif?tab=readme-ov-file",
         "details": "User's can Sign Up, Login and manage their profiles. They can add, delete, update and donate to different campaigns. I can still improve the project by adding new features like they can share video for their campaigns etc"
-    },
-    {
-        "id": 3,
-        "name": "Winter Clothing Donation",
-        "image": "https://i.ibb.co.com/yy2vJYP/Screenshot-2025-01-04-053815.png",
-        "stack": [
-            "React.js",
-            "React Router",
-            "Tailwind CSS",
-            "React Context API",
-            "Firebase"
-        ],
-        "description": "This website connects compassionate donors with those in need, ensuring everyone can stay warm during the cold months. With just a few clicks, you can make a difference by donating gently used or new winter clothing to local shelters and communities. Join us in spreading warmth and kindness this winter season!",
-        "liveLink": "https://winter-clothing-donation-a305c.web.app/",
-        "githubLink": "https://github.com/programming-hero-web-course1/b10-a9-authentication-AbdullahAlTowsif?tab=readme-ov-file",
-        "details": "User's can Sign Up, Login and manage their profiles. They can donate winter clothes in different division they want. I can improve the website by taking real time information which will be more dynamic and fast for the user's to use"
     }
 ]
