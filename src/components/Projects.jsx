@@ -20,7 +20,7 @@ const Projects = ({project}) => {
                 <div className="card-body">
                     <h2 className="card-title">{name}</h2>
                     <div className="card-actions justify-end">
-                        <button onClick={handleDetails} className="btn bg-teal-500">View Details</button>
+                        <button onClick={handleDetails} className="btn bg-purple-500 text-white">View Details</button>
                     </div>
                 </div>
             </div>

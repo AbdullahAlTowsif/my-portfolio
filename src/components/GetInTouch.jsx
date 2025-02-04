@@ -67,7 +67,7 @@ const GetInTouch = () => {
                                 placeholder="Tell me more about your needs..."
                                 className="textarea textarea-bordered w-full h-24"
                             ></textarea>
-                            <button className="btn btn-primary w-full md:w-auto">
+                            <button className="btn bg-purple-500 text-white w-full md:w-auto">
                                 Send Message
                             </button>
                         </form>
