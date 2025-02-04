@@ -1,7 +1,7 @@
 const EducationExperience = () => {
     return (
         <div id="my-education" className="container mx-auto max-w-4xl text-center lg:text-left py-16">
-            <h1 className="text-4xl font-bold mb-6">My Education</h1>
+            <h1 className="text-4xl font-bold text-green-600 mb-6">My Education</h1>
             <div className="border rounded-lg p-5 space-y-5">
                 <div className="space-y-2">
                     <div className="badge badge-accent p-3">2022 - 2025</div>
